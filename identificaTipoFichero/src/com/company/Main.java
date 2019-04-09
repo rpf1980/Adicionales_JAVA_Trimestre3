@@ -30,6 +30,8 @@ public class Main
             String hexa = Integer.toHexString(n);
             hexa = hexa.toUpperCase();
 
+            System.out.println(hexa);
+
             if(tipoEXE.equals(hexa))
             {
                 System.out.println("Fichero tipo = .exe");
@@ -85,7 +87,7 @@ public class Main
 
     public static void main(String[] args)
     {
-        idenficadorTiposFicheros("identificaTipoFichero.iml");
+        idenficadorTiposFicheros("calc.exe");
     }
 }
 

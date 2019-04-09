@@ -78,7 +78,7 @@ public class Main
 
     public static void main(String[] args)
     {
-        //copiaFichero("D:\\ComandosGit.txt", "D:\\varios\\copialoYa.txt");
-        copiaFicherosPorExtension("D:\\","D:\\varios\\", ".txt");
+        copiaFichero("D:\\ComandosGit.txt", "D:\\varios\\copialoYa.txt");
+        //copiaFicherosPorExtension("D:\\","D:\\varios\\", ".txt");
     }
 }
