@@ -113,39 +113,10 @@ public class Main
 
     public static void printListadoBonito(List<String> listaNombres, List<Integer> listaEnteros)
     {
-        int tamanioMayorListaNombres = maxListaString(listaNombres);
-        int tamaCabeceraNombres = tamanioMayorListaNombres + 10;
-        List<String> listaCasting = new ArrayList<>();
-        String casting = "";
-        String espacios = "";
-        String nombre = "";
-        int numeroDigitos = 0;
-        String cabecera = "";
-        String espaciosEnteros = "";
-        int i, j;
-
-        for(i = 0; i < listaEnteros.size(); i++)
+        for(int i = 0; i < listaEnteros.size(); i++)
         {
-            //Convertimos datos ... pasamos lista a String
-            casting = String.valueOf(listaEnteros.get(i));
-            listaCasting.add(casting);
-
-            nombre = listaNombres.get(i);
-
-            numeroDigitos = digitosDeUnNumero(listaEnteros.get(i));
-
-            if(numeroDigitos == 1)
-            {
-                cabecera = nombre + PadRight(" ",tamaCabeceraNombres-1 - (nombre.length()-1)) + casting;
-            }
-            else
-            {
-                cabecera = nombre + PadRight(" ",tamaCabeceraNombres - nombre.length()) + casting;
-            }
-
-            System.out.println(cabecera);
+            System.out.println(PadRight(listaNombres.get(i), 12) + PadLeft(listaEnteros.get(i).toString(), 3));
         }
-
     }
 
     public static void ordenaFicheroPorLineas()
