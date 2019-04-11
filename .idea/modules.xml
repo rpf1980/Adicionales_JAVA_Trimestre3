@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClaseDadoRepetimos/ClaseDadoRepetimos.iml" filepath="$PROJECT_DIR$/ClaseDadoRepetimos/ClaseDadoRepetimos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CopiaFicherosPorExtension/CopiaFicherosPorExtension.iml" filepath="$PROJECT_DIR$/CopiaFicherosPorExtension/CopiaFicherosPorExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graficoAsteriscos/GraficoAsteriscos/GraficoAsteriscos.iml" filepath="$PROJECT_DIR$/graficoAsteriscos/GraficoAsteriscos/GraficoAsteriscos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnificaContenidoFicherosCopia/UnificaContenidoFicherosCopia.iml" filepath="$PROJECT_DIR$/UnificaContenidoFicherosCopia/UnificaContenidoFicherosCopia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoBackUp/autoBackUp.iml" filepath="$PROJECT_DIR$/autoBackUp/autoBackUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copiaFicherosPorExtensionRecursivo/copiaFicherosPorExtensionRecursivo.iml" filepath="$PROJECT_DIR$/copiaFicherosPorExtensionRecursivo/copiaFicherosPorExtensionRecursivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/identificaTipoFichero/identificaTipoFichero.iml" filepath="$PROJECT_DIR$/identificaTipoFichero/identificaTipoFichero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ordenaFicherosPorLineas/ordenaFicherosPorLineas.iml" filepath="$PROJECT_DIR$/ordenaFicherosPorLineas/ordenaFicherosPorLineas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conversorDecimal/practica4/practica4.iml" filepath="$PROJECT_DIR$/conversorDecimal/practica4/practica4.iml" />
+    </modules>
+  </component>
+</project>

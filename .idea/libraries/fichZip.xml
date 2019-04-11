@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fichZip">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/identificaTipoFichero/fichZip.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
